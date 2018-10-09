@@ -1,0 +1,14 @@
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/pm/41shk5310yb7lxldy91rpzp40000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/timur/Library/Application Support/IntelliJIdea2018.2/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+all {file:/Users/timur/Downloads/BackendDesign-master/untitled/}untitled/products {file:/Users/timur/Downloads/BackendDesign-master/untitled/}untitled/test:products
+run Lab2
+all {file:/Users/timur/Downloads/BackendDesign-master/untitled/}untitled/products {file:/Users/timur/Downloads/BackendDesign-master/untitled/}untitled/test:products
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/pm/41shk5310yb7lxldy91rpzp40000gn/T/sbt-structure.xml; session clear-all
+all {file:/Users/timur/Downloads/BackendDesign-master/untitled/}untitled/products {file:/Users/timur/Downloads/BackendDesign-master/untitled/}untitled/test:products
+sbt test
+run sbt test
+run sbt test 4
+all {file:/Users/timur/Downloads/BackendDesign-master/untitled/}untitled/products {file:/Users/timur/Downloads/BackendDesign-master/untitled/}untitled/test:products
+sbt test
+run sbt test
+all {file:/Users/timur/Downloads/BackendDesign-master/untitled/}untitled/products {file:/Users/timur/Downloads/BackendDesign-master/untitled/}untitled/test:products
